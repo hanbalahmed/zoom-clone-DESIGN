@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  color: aliceblue;
+}
+
+.zoom-container {
+  height: 74vh;
+  background-color: black;
+}
+
+.bottom {
+  bottom: 0;
+  color: aliceblue;
+  position: absolute;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.bottom button {
+  border: none;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 10rem;
+  border-radius: 12px;
+  /* color: ; */
+  background: rgb(255, 128, 153);
+}
+
+.bottom svg {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#left {
+  margin-right: 10px;
+}
+
+.microphone {
+  text-align: center;
+}
+
+#video {
+  background-image: url("https://github.com/hanbalahmed/images/blob/main/WIN_20201112_23_08_41_Pro.jpg?raw=true");
+  background-size: cover;
+  height: 200px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+}
+
+#video:hover {
+  transform: scale(1.1);
+}
+
+.zoom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+/* .div {
+  background-image: url("https://raw.githubusercontent.com/hanbalahmed/images/main/pp.jpg");
+} */
